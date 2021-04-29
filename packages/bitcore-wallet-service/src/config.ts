@@ -34,43 +34,43 @@ module.exports = {
   blockchainExplorerOpts: {
     btc: {
       livenet: {
-        url: 'https://api.bitcore.io'
+        url: 'http://api.omega.io:3000'
       },
       testnet: {
-        url: 'https://api.bitcore.io',
+        url: 'http://api.omega.io:3000',
         regtestEnabled: false
       }
     },
     bch: {
       livenet: {
-        url: 'https://api.bitcore.io'
+        url: 'http://api.omega.io:3000'
       },
       testnet: {
-        url: 'https://api.bitcore.io'
+        url: 'http://api.omega.io:3000'
       }
     },
     eth: {
       livenet: {
-        url: 'https://api-eth.bitcore.io'
+        url: 'http://api.omega.io:3000'
       },
       testnet: {
-        url: 'https://api-eth.bitcore.io'
+        url: 'http://api.omega.io:3000'
       }
     },
     xrp: {
       livenet: {
-        url: 'https://api-xrp.bitcore.io'
+        url: 'http://api.omega.io:3000'
       },
       testnet: {
-        url: 'https://api-xrp.bitcore.io'
+        url: 'http://api.omega.io:3000'
       }
     },
     doge: {
       livenet: {
-        url: 'https://api.bitcore.io'
+        url: 'http://api.omega.io:3000'
       },
       testnet: {
-        url: 'https://api.bitcore.io'
+        url: 'http://api.omega.io:3000'
       }
     },
     socketApiKey: 'socketApiKey'

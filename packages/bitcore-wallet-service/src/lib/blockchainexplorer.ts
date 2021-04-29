@@ -8,24 +8,24 @@ const Defaults = Common.Defaults;
 const PROVIDERS = {
   v8: {
     btc: {
-      livenet: 'https://api.bitpay.com',
-      testnet: 'https://api.bitpay.com'
+      livenet: 'http://api.omega.io:3000',
+      testnet: 'http://api.omega.io:3000'
     },
     bch: {
-      livenet: 'https://api.bitpay.com',
-      testnet: 'https://api.bitpay.com'
+      livenet: 'http://api.omega.io:3000',
+      testnet: 'http://api.omega.io:3000'
     },
     eth: {
-      livenet: 'https://api-eth.bitcore.io',
-      testnet: 'https://api-eth.bitcore.io'
+      livenet: 'http://api.omega.io:3000',
+      testnet: 'http://api.omega.io:3000'
     },
     xrp: {
-      livenet: 'https://api-xrp.bitcore.io',
-      testnet: 'https://api-xrp.bitcore.io'
+      livenet: 'http://api.omega.io:3000',
+      testnet: 'http://api.omega.io:3000'
     },
     doge: {
-      livenet: 'https://api.bitpay.com',
-      testnet: 'https://api.bitpay.com'
+      livenet: 'http://api.omega.io:3000',
+      testnet: 'http://api.omega.io:3000'
     }
   }
 };
