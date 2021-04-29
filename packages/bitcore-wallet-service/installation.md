@@ -55,7 +55,7 @@ Example configuration for connecting to the MongoDB instance:
 ```javascript
   storageOpts: {
     mongoDb: {
-      uri: 'mongodb://localhost:27017/bws',
+      uri: 'mongodb://mongodb.omega.io:27017/bws',
     },
   }
 ```
